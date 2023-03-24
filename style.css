@@ -102,7 +102,16 @@ body{
 
         /* feature-2 area */
 
-        .feature2-heading{
+    .feature-2 {
+        display: flex;
+        margin:25px 100px;
+    }
+
+    .feature2-content {
+        width: 50%;
+    }
+
+      .feature2-heading{
             border-left: 5px solid #ff900e ;
             padding-left: 10px;
         }
@@ -110,4 +119,11 @@ body{
     font-size: 35px;
     font-weight: 900;
 
+}
+
+.feature2-img{
+    width: 50%;
+}
+.feature2-img img{
+    width: 100%;
 }
