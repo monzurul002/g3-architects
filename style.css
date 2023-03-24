@@ -1,8 +1,12 @@
 /* common styles  */
 
-body{
+main{
+    padding: 0 5%;
+}
+
+header{
     background-color: #fff4e7;
-    margin: 0 5%;
+
 }
 .btn{
     background-color: #ff900e;
@@ -104,7 +108,7 @@ body{
 
     .feature-2 {
         display: flex;
-        margin:25px 100px;
+        margin:25px 50px;
     }
 
     .feature2-content {
@@ -121,9 +125,56 @@ body{
 
 }
 
+.feature-product-container{
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.feature-product{
+    /* box-shadow: 0.2px .2px .2px .2px  gray; */
+
+    padding: 5px 35px;
+    margin:7px 10px;
+}
+
 .feature2-img{
     width: 50%;
 }
 .feature2-img img{
-    width: 100%;
+    width: 90%;
+    height: 100%;
+    margin-left: 35px;
+}
+
+p{
+    color:gray;
+}
+
+.experience-btn{
+    padding: 35px 25px;
+    font-size: 35px;
+    line-height: .8;
+}
+
+.button {
+    position: relative;
+    bottom: 75px;
+}
+
+
+    /* some fact section */
+.somefacts-container {
+    padding: 50px 45px;
+}
+
+.facts-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fact {
+    border:1px solid #ff900e;
+    text-align: center;
+    padding: 25px 25px;
+    line-height: 5px;
 }
