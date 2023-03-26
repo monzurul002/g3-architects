@@ -1,8 +1,7 @@
 /* common styles  */
-body{
+ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
-}
+     box-sizing: border-box;} 
 main{
     padding: 0 5%;
 }
@@ -247,6 +246,9 @@ footer {
     .logo{
         font-size: 20px;
     }
+    
+
+
     /* navbar */
     .checkbtn {
      display: inline-block;
@@ -389,7 +391,7 @@ footer {
 
 
     footer{
-        width: 80%;
+        width: 85%;
     }
    
  }
